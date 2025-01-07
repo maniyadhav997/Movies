@@ -1,0 +1,64 @@
+/* NavBar Styles */
+.navbar-container {
+  background-color: #032541;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.page-logo {
+  font-size: 30px;
+  margin: 0;
+}
+
+.nav-items-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  padding: 5px 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #32b8cd;
+}
+
+.btn-outline-info {
+  background-color: transparent;
+  color: #32b8cd;
+  border-color: #32b8cd;
+  padding: 8px 16px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.btn-outline-info:disabled {
+  color: #a9a9a9;
+  border-color: #a9a9a9;
+  cursor: not-allowed;
+}
+
+.btn-outline-info:hover:not(:disabled) {
+  background-color: #32b8cd;
+  color: white;
+}

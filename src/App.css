@@ -1,0 +1,51 @@
+/* App.css */
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Flex utility classes */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #1f1f1f;
+  border-bottom: 2px solid #333;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff9900;
+}
+
+/* Route container */
+.route-container {
+  flex: 1;
+  padding: 2rem;
+}

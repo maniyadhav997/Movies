@@ -1,0 +1,40 @@
+/* index.css */
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.route-page-body {
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 80vh;
+}
+
+.movies-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.movies-list li {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .movies-list li {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .movies-list li {
+    flex: 1 1 100%;
+  }
+}
