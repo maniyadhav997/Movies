@@ -112,16 +112,4 @@ https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=en-US&quer
 **Note:** Make sure to replace `${API_KEY}`, `${MOVIE_ID}` and `${MOVIE_NAME}` with actual values when using these APIs.
 
 <br/>
-#### Submission Form:
 
-<center>Click the below button and submit your code sandbox link</center>
-<br>
-<a target=_blank_ href="https://forms.ccbp.in/project-submission-form-project2">
-  <center><button style="color: #fff; border: none; cursor: pointer; width: 218px; height: 34px; background-color: rgb(22, 101, 216); border-radius: 5.4px; box-shadow: rgb(0 0 0 / 36%) 0px 2px 4px 0px;font-family: Inter;font-size: 14px;color: rgb(255, 255, 255);font-weight: 500;letter-spacing: 0.5px;text-transform: uppercase;">
-    SUBMIT
-  </button>
-  </center>
-</a>
-
-<br/>
-<center>**Follow the clean code guidelines**</center>
